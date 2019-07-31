@@ -25,7 +25,7 @@ http://stackoverflow.com/a/34696029/383904
 /* SLIDES */
 
 .CSSgal .slider > * {
-  font-size: 1rem;
+  font-size: 2vw;
   display: inline-block;
   white-space: normal;
   vertical-align: top;
@@ -75,7 +75,7 @@ http://stackoverflow.com/a/34696029/383904
 
 .CSSgal .bullets {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   bottom: 0;
   padding: 10px 0;
   width: 100%;
@@ -136,13 +136,13 @@ http://stackoverflow.com/a/34696029/383904
 .CSSgal{
   color: #fff000;  
   text-align: center;
-}
+  }
 .CSSgal .slider h2 {
-  margin-top: 55vh;
+  margin-top: 45vh;
   font-weight: 200;
   letter-spacing: -0.06em;
   word-spacing: 0.2em;
-  font-size: 3em;
+  font-size: 3vw;
 }
 .CSSgal a {
   border-radius: 50%;
