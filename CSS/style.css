@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+html,body {
+  height: 100%;
+  font: 16px/1.3 sans-serif;
+  background-color: #000;
+  color:#F0F0F0;
+  margin: 0;
+  font-family: 'Ubuntu';
+}
+.navbar {
+  overflow: hidden;
+  background-color: #131720;
+  position: fixed;
+  top: 0;
+  z-index: 1; 
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #F0F0F0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #131720;
+  color: #F0F0F0;
+}
+
+main {
+  display: flex;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; 
+}
+
+.about {
+  font-size:13px;
+  padding-left: 13px;
+  width:100%;
+  margin-top:15%;
+  margin-left: 10%;
+  color:#FFF;
+}
+
+.sidebar {
+  padding-right:13px;
+  width:35%;
+  margin-top:110px;
+  color:#131720;
+}
+
+a {
+  color:#3366ff;
+  text-decoration: none;
+}
+
+.image{
+  margin-right:70px;
+  margin-top:-15%;
+  float:left;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.news {
+  font-size: 13px;
+  padding-left: 13px;
+  width: 100%;
+  margin-top: 20%;
+  margin-bottom: 13%;
+  margin-left: 22%;
+  color: #FFF;
+}
+
+.contact {
+  font-size: 13px;
+  padding-left: 13px;
+  width: 100%;
+  margin-bottom: 8%;
+  margin-left: 22%;
+  color: #FFF;
+}
+
+textarea {
+  border: 1px solid silver;
+  width: 90%;
+  height: 250px;
+  padding-left: 5px;
+  margin: 10px auto;
+  resize: none;
+  background: transparent;
+  color: silver;
+  font-family: 'Ubuntu';
+  font-size: 13px;
+}
+
+input{
+  background: transparent; 
+  color: silver; 
+  border: 1px solid silver; 
+  margin: 5px auto; 
+  width: 90%;
+  height: 20px;
+  padding-left: 5px;
+  font-family: 'Ubuntu';
+  font-size: 13px;
+}
